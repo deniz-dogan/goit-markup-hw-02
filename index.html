@@ -4,124 +4,131 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework Test</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <div class="logo">
-        <a href="index.html">WEBSTUDIO</a>
+        <a href="index.html" class="nav-link-logo">WEBSTUDIO</a>
       </div>
 
       <nav>
         <ul>
-          <li><a href="#studio">Studio</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contacts">Contacts</a></li>
+          <li><a href="#studio" class="nav-link-1">Studio</a></li>
+          <li><a href="#portfolio" class="nav-link-2">Portfolio</a></li>
+          <li><a href="#contacts" class="nav-link-3">Contacts</a></li>
         </ul>
       </nav>
-      
 
-      
       <address>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
-        <a href="tel:+11(000)1111111">+11 (000) 111-11-11</a>
+        <a href="mailto:info@devstudio.com" class="mail-adres"
+          >info@devstudio.com</a
+        ><br />
+        <a href="tel:+11(000)1111111" class="tel-adres">+11 (000) 111-11-11</a>
       </address>
-      <!-- mail tel yazıldı-->
     </header>
 
     <!-- koyu mavi bölüm başlangıç, geniş alan section1-->
     <main>
       <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <h1 class="huge-title">Effective Solutions for Your Business</h1>
+        <button type="button" class="btn">Order Service</button>
       </section>
       <!--section1 bitti-->
 
       <!-- section2 4 yazılı alan başlangıç -->
-      <!-- buradaki başlıkları figmada header 3 olarak gördüğüm için 3 olarak yazdım-->
       <section>
         <ul>
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="strategy">Strategy</h3>
+            <p class="strategy-text">
               Our goal is the identify the business problem to walk away with
               the perfect and creative solutions
             </p>
           </li>
 
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="punctuality">Punctuality</h3>
+            <p class="punctuality-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
 
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="diligence">Diligence</h3>
+            <p class="diligence-text">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
 
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="techno">Technologies</h3>
+            <p class="techno-class">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
-      
+
       <section>
-        <h2>Our Team</h2>
+        <h2 class="our-team">Our Team</h2>
         <ul>
           <li>
             <img
+              class="mark-photo"
               src="./images/img.jpg"
               alt="man-with-laptop-presenting-something"
               width="264"
               height="260"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="mark">Mark Guerrero</h3>
+            <p class="mark-who">Product Designer</p>
           </li>
 
           <li>
             <img
+              class="tom-photo"
               src="./images/img (1).jpg"
               alt="a-man-smiling-with-blue-shirt"
               width="264"
               height="260"
             />
-            <h3>Tom Ford</h3>
-            <p>Fronted Developer</p>
+            <h3 class="tom">Tom Ford</h3>
+            <p class="tom-who">Fronted Developer</p>
           </li>
           <li>
             <img
+              class="camila-photo"
               src="./images/img (2).jpg"
               alt="young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait"
               width="264"
               height="260"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="camila">Camila Garcia</h3>
+            <p class="camila-who">Marketing</p>
           </li>
 
           <li>
             <img
+              class="daniel-photo"
               src="./images/img (3).jpg"
               alt="confident-handsome-guy-posing-against-white-wall"
               width="264"
               height="260"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="daniel">Daniel Wilson</h3>
+            <p class="daniel-who">UI Designer</p>
           </li>
         </ul>
 
@@ -130,75 +137,81 @@
     </main>
 
     <!-- section 3 başlangıç-->
-     <section>
-      <h2 class="our-title">Our Portfolio</h2>
+    <section>
+      <h2 class="our-port">Our Portfolio</h2>
       <ul>
         <li>
           <img
-          src="./images/img (4).jpg"
-          alt="banking-app-desings-samples"
-          width="360"
-          height="360"
+            class="app-designs"
+            src="./images/img (4).jpg"
+            alt="banking-app-desings-samples"
+            width="360"
+            height="360"
           />
-          <h3 class="banking-title">Banking App</h3>
-          <p class="app">App</p>
+          <h3 class="banking-app">Banking App</h3>
+          <p class="app-purple">App</p>
         </li>
         <li>
           <img
-          src="./images/img (5).jpg"
-          alt="payment-with-phone"
-          width="360"
-          height="360"
+            class="cashless-photo"
+            src="./images/img (5).jpg"
+            alt="payment-with-phone"
+            width="360"
+            height="360"
           />
-          <h3 class="payment-title">Cashless Payment</h3>
+          <h3 class="cashless-payment">Cashless Payment</h3>
           <p class="marketing">Marketing</p>
         </li>
         <li>
           <img
-          src="./images/img (6).jpg"
-          alt="pc-screen"
-          width="360"
-          height="360"
+            class="pc-photo"
+            src="./images/img (6).jpg"
+            alt="pc-screen"
+            width="360"
+            height="360"
           />
           <h3 class="meditation-app">Meditation App</h3>
-          <p class="app">App</p>
+          <p class="app-laptop">App</p>
         </li>
         <li>
           <img
-          src="./images/img (7).jpg"
-          alt="taxi-driver-paying-attention"
-          width="360"
-          height="360"
+            class="taxi-photo"
+            src="./images/img (7).jpg"
+            alt="taxi-driver-paying-attention"
+            width="360"
+            height="360"
           />
           <h3 class="taxi-services">Taxi Services</h3>
           <p class="taxi-marketing">Marketing</p>
         </li>
         <li>
           <img
-          src="./images/img (8).jpg"
-          alt="wallpaper-desings"
-          width="360"
-          height="360"
+            class="wallpaper-photo"
+            src="./images/img (8).jpg"
+            alt="wallpaper-desings"
+            width="360"
+            height="360"
           />
-          <h3 class="screen">Screen Illustrations</h3>
-          <p class="desing-title">Design</p>
+          <h3 class="screen-illus">Screen Illustrations</h3>
+          <p class="desing">Design</p>
         </li>
         <li>
           <img
-          src="./images/img (9).jpg"
-          alt="short-hair-lady-with-smartphone"
-          width="360"
-          height="360"
+            class="online-photo"
+            src="./images/img (9).jpg"
+            alt="short-hair-lady-with-smartphone"
+            width="360"
+            height="360"
           />
-          <h3 class="online">Online Courses</h3>
+          <h3 class="online-courses">Online Courses</h3>
           <p class="online-marketing">Online Marketing</p>
         </li>
       </ul>
-     </section>
-     
-     <footer>
+    </section>
+
+    <footer>
       <div class="logo">
-        <a href="index.html">WEBSTUDIO</a>
+        <a href="index.html" class="nav-link-logo">WEBSTUDIO</a>
       </div>
       <p>
         Increase the flow of customers and sales for your business with digital
