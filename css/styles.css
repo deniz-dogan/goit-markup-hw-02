@@ -1,3 +1,271 @@
 body {
-    font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto' sans-serif;
+}
+body {
+  color: #434455;
+}
+.logo-web {
+  color: #4d5ae5;
+}
+.logo-studio {
+  color: #2e2f42;
+}
+.nav-link-a {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 2%;
+}
+.nav-link-a:hover {
+  color: #404bbf;
+}
+.nav-link-a:active {
+  text-decoration-line: underline;
+}
+
+.nav-link-b {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 2%;
+}
+.nav-link-b:hover {
+  color: #404bbf;
+}
+.nav-link-c {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 2%;
+}
+.nav-link-c:hover {
+  color: #404bbf;
+}
+.mail-address {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: %2;
+}
+.mail-address:hover {
+  color: #404bbf;
+}
+.tel-address {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 2%;
+}
+.tel-address:hover {
+  color: #404bbf;
+}
+.huge-title {
+  color: #ffffff;
+  background-color: #2e2f42;
+  font-weight: bold;
+  font-size: 56px;
+  letter-spacing: 2%;
+  line-height: 1, 071;
+}
+.btn {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 4%;
+  line-height: 1, 5;
+  cursor: pointer;
+}
+.btn:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.strategy {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 2%;
+}
+.strategy-text {
+  font-size: 12px;
+  line-height: 1, 16;
+  letter-spacing: 4%;
+}
+.punctuality {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 2%;
+}
+.punctuality-text {
+  font-size: 12px;
+  line-height: 1, 16;
+  letter-spacing: 4%;
+}
+.diligence {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 2%;
+}
+.diligence-text {
+  font-size: 12px;
+  line-height: 1, 16;
+  letter-spacing: 4%;
+}
+.techno {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 2%;
+}
+.techno-text {
+  font-size: 12px;
+  line-height: 1, 16;
+  letter-spacing: 4%;
+}
+.our-team {
+  font-weight: 700;
+  font-size: 36px;
+  font-style: bold;
+  line-height: 1, 11;
+  letter-spacing: 2%;
+}
+.mark {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 2%;
+}
+.mark-who {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 2%;
+}
+.tom {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 2%;
+}
+.tom-who {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 2%;
+}
+.camila {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 2%;
+}
+.camila-who {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 2%;
+}
+.daniel {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 2%;
+}
+.daniel-who {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 2%;
+}
+.our-port {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 36px;
+  line-height: 1, 11;
+  letter-spacing: 2%;
+}
+.banking-app {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 2%;
+}
+.app-purple {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 2%;
+}
+.cashless-payment {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 2%;
+}
+.marketing {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 2%;
+}
+.meditation-app {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 2%;
+}
+.app-laptop {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 2%;
+}
+.taxi-services {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 2%;
+}
+.taxi-marketing {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 2%;
+}
+.screen-illus {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 2%;
+}
+.desing {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 2%;
+}
+.online-courses {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 2%;
+}
+.online-marketing {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 2%;
+}
+.logo-web {
+  color: #4d5ae5;
+}
+.logo-studio {
+  color: #2e2f42;
+}
+.footer-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 2%;
 }
