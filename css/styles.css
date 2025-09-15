@@ -4,16 +4,26 @@ body {
 }
 .logo-web {
   color: #4d5ae5;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 16px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
 }
 .logo-studio {
   color: #2e2f42;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 16px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
 }
 .nav-link-a {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .nav-link-a:hover {
   color: #404bbf;
@@ -26,8 +36,8 @@ body {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .nav-link-b:hover {
   color: #404bbf;
@@ -36,8 +46,8 @@ body {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .nav-link-c:hover {
   color: #404bbf;
@@ -45,8 +55,9 @@ body {
 .mail-address {
   color: #434455;
   font-size: 16px;
-  line-height: 1, 5;
-  letter-spacing: %2;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .mail-address:hover {
   color: #404bbf;
@@ -54,8 +65,9 @@ body {
 .tel-address {
   color: #434455;
   font-size: 16px;
-  line-height: 1, 5;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .tel-address:hover {
   color: #404bbf;
@@ -63,197 +75,203 @@ body {
 .huge-title {
   color: #ffffff;
   background-color: #2e2f42;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 56px;
-  letter-spacing: 2%;
-  line-height: 1, 071;
+  letter-spacing: 0.02em;
+  line-height: 1.071;
 }
 .btn {
   color: #ffffff;
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
-  letter-spacing: 4%;
-  line-height: 1, 5;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
   cursor: pointer;
 }
 .btn:hover {
   color: #ffffff;
   background-color: #404bbf;
 }
+
+ul {
+  list-style: none;
+}
+
 .strategy {
   font-weight: 500;
   font-size: 20px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 .strategy-text {
   font-size: 12px;
-  line-height: 1, 16;
-  letter-spacing: 4%;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
 }
 .punctuality {
   font-weight: 500;
   font-size: 20px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 .punctuality-text {
   font-size: 12px;
-  line-height: 1, 16;
-  letter-spacing: 4%;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
 }
 .diligence {
   font-weight: 500;
   font-size: 20px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 .diligence-text {
   font-size: 12px;
-  line-height: 1, 16;
-  letter-spacing: 4%;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
 }
 .techno {
   font-weight: 500;
   font-size: 20px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 .techno-text {
   font-size: 12px;
-  line-height: 1, 16;
-  letter-spacing: 4%;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
 }
 .our-team {
   font-weight: 700;
   font-size: 36px;
   font-style: bold;
-  line-height: 1, 11;
-  letter-spacing: 2%;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  background-color: #f4f4fd;
 }
 .mark {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .mark-who {
   color: #434455;
   font-size: 16px;
-  line-height: 1, 5;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .tom {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .tom-who {
   color: #434455;
   font-size: 16px;
-  line-height: 1, 5;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .camila {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .camila-who {
   color: #434455;
   font-size: 16px;
-  line-height: 1, 5;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .daniel {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .daniel-who {
   color: #434455;
   font-size: 16px;
-  line-height: 1, 5;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .our-port {
   font-weight: 700;
   font-style: bold;
   font-size: 36px;
-  line-height: 1, 11;
-  letter-spacing: 2%;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 }
 .banking-app {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .app-purple {
   color: #434455;
   font-size: 16px;
-  line-height: 1, 5;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .cashless-payment {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .marketing {
   color: #434455;
   font-size: 16px;
-  line-height: 1, 5;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .meditation-app {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .app-laptop {
   color: #434455;
   font-size: 16px;
-  line-height: 1, 5;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .taxi-services {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .taxi-marketing {
   color: #434455;
   font-size: 16px;
-  line-height: 1, 5;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .screen-illus {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .desing {
   color: #434455;
   font-size: 16px;
-  line-height: 1, 5;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .online-courses {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .online-marketing {
   color: #434455;
   font-size: 16px;
-  line-height: 1, 5;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .logo-web {
   color: #4d5ae5;
@@ -262,8 +280,9 @@ body {
   color: #2e2f42;
 }
 .footer-text {
-  color: #434455;
+  color: #E7E9FC
   font-size: 16px;
-  line-height: 1, 5;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background-color: #2e2f42;
 }
