@@ -9,7 +9,7 @@ body {
 }
 
 .logo-web {
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #4d5ae5;
   font-weight: 700;
   font-style: bold;
@@ -18,7 +18,7 @@ body {
   letter-spacing: 0.03em;
 }
 .logo-studio {
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #2e2f42;
   font-weight: 700;
   font-style: bold;
